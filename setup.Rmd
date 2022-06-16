@@ -14,16 +14,26 @@ https://github.com/oswaldoforey/mon_livre.git
 ### Installer l'onglet git dans RStudio
 
 7. Dans la console, taper usethis::use_git() et dire Yes aux deux demandes. Cela redémarre R et installer l'onglet git dans la fenêtre environnement.
+
 8. Cliquer ensuite dans l'onglet terminal de la fenêtre console pour ouvrir le terminal. 
+
 9. Taper git remote add suivi du nom que vous souhaitez donner à la connection suivi de l'uril github de votre repo copiée précedémment, soit quelque chose comme:
 git remote add mon_livre https://github.com/oswaldoforey/mon_livre.git 
+
 10. Taper ensuite git push --set-upstream mon_livre master
+
 11. Retourner sur github.com/username/"mon_livre" et rafraichir, les fichiers sont là! 
+
 12. Cliquer ensuite sur 'Settings' (la roue dentée en haut à droite sous Pin)
+
 13. Puis sur le coté gauche de la page trouver le menu 'Pages' et rentrer dedans
+
 14. Changer ensuite la Source pulldown de "None" à "master branch /docs folder"
+
 15. Cela devrait afficher le message "Your site is ready to be published at https://username.github.io/mon_livre/" — cliquer sur le lien, cela devrait vous emmener à la page de votre livre
+
 16. Si un readem s'est malgré tout créé et que la fusée en bas à droite du tableau de votre repo n'apparait pas, effacer le readme, etle bouton environnement en bas à droite de la page avec une fusée apparait
+
 17. cliquer dessus ça marche (il faut attendre un peu des fois et recharger la page)
 
 
